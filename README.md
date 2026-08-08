@@ -26,8 +26,8 @@ json.dumps(payload, sort_keys=True, separators=(',', ':'))
 
 * **`sort_keys=True`**: Prevents key-insertion order variances across dictionaries.
 * **`separators=(',', ':')`**: Strips whitespace padding around structural delimiters.
-* **Integer Timestamps**: Timestamps are explicitly cast to integer Unix seconds (`int(time.time())`) to avoid floating-point formatting discrepancies.
-* **Hash Exclusion**: The stored `hash` attribute is strictly excluded from `payload_for_hash()` to prevent circular dependencies.
+* **Integer timestamps**: Timestamps are explicitly cast to integer Unix seconds (`int(time.time())`) to avoid floating-point formatting discrepancies.
+* **Hash exclusion**: The stored `hash` attribute is strictly excluded from `payload_for_hash()` to prevent circular dependencies.
 
 ---
 
