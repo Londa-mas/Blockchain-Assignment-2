@@ -1,6 +1,6 @@
 """
-BLCH9X2 — Blockchain & Financial Engineering
-Assignment A2: Block Construction Lab (block.py)
+BLCH9X2 — Blockchain 
+Assignment 2: Block Construction Lab (block.py)
 
 Implementation of the Block class, canonical serialization commitment scheme,
 genesis block initialization, chain linking, and tamper-evidence demo.
