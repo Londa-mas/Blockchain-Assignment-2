@@ -1,7 +1,7 @@
 # Blockchain-Assignment-2
 ## Overview
 
-This repository contains the implementation of a fundamental cryptographic **Block** data structure for distributed ledgers. The implementation covers:
+This repository contains the implementation of a fundamental cryptographic Block data structure for distributed ledgers. The implementation covers:
 1. **Material Payload Structuring**: Packaging `index`, `timestamp`, `transactions`, `previous_hash`, and `nonce`.
 2. **Canonical JSON Serialization**: Guaranteeing deterministic hash commitments using sorted keys (`sort_keys=True`) and stripped whitespace separators (`separators=(',', ':')`).
 3. **Genesis & Linkage Logic**: Building the root block (`index=0`) and cryptographically linking child blocks.
