@@ -1,0 +1,13 @@
+# Python byte-code / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
