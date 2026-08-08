@@ -20,7 +20,9 @@ This repository contains the implementation of a fundamental cryptographic **Blo
 
 To eliminate hashing variance across platforms and execution environments, all payload dictionaries are serialized using:
 
-$$\text{Canonical JSON} = \texttt{json.dumps}(\text{payload}, \text{sort\_keys}=\text{True}, \text{separators}=(',', ':'))$$
+```python
+json.dumps(payload, sort_keys=True, separators=(',', ':'))
+```
 
 * **`sort_keys=True`**: Prevents key-insertion order variances across dictionaries.
 * **`separators=(',', ':')`**: Strips whitespace padding around structural delimiters.
